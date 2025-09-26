@@ -4,7 +4,7 @@ A simple Android application to automatically forward SMS messages based on send
 
 ## Features
 
-- **Rule-Based Forwarding**: Forwards SMS messages to a specified phone number.
+- **Rule-Based Forwarding**: Forwards SMS and RCS/MMS messages to a specified phone number.
 - **Sender Filtering**: Filters messages based on a customizable list of sender phone numbers or contact names.
 - **Content Filtering**: Uses a customizable list of regular expressions to filter messages by their content.
 - **Persistent Configuration**: All settings and filter lists are saved and survive app restarts.
