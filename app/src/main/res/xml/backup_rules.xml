@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ For more information about backup rules, see the official documentation:
+ https://developer.android.com/guide/topics/data/autobackup#include-exclude-files
+-->
+<full-backup-content>
+    <!--
+    By default, all files in the app's domain are backed up.
+    Use <include> and <exclude> tags to specify which files to back up.
+    -->
+    <include domain="sharedpref" path="."/>
+    <!-- Add or remove rules here to configure what is backed up. -->
+</full-backup-content>

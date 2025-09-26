@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="log_forwarded">#006400</color>
+	<color name="log_not_forwarded">#8B0000</color>
+	<color name="log_test_pass">#00008B</color>
+	<color name="log_test_fail">#FF8C00</color>
+	<color name="log_info">#555555</color>
+</resources>

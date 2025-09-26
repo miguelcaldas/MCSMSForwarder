@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ For more information about data extraction rules, see the official documentation:
+ https://developer.android.com/guide/topics/data/autobackup#Rules
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <!--
+        To disable cloud backup, set the `disableIfNoEncryptionCapabilities` flag to true.
+        By default, cloud backup is enabled for all files in the app's domain.
+        -->
+        <include domain="sharedpref" />
+        <!-- Add or remove domains here to configure what is backed up. -->
+    </cloud-backup>
+    <device-transfer>
+        <!--
+        By default, device-to-device transfer is enabled for all files in the app's domain.
+        -->
+        <include domain="sharedpref" />
+        <!-- Add or remove domains here to configure what is transferred. -->
+    </device-transfer>
+</data-extraction-rules>
